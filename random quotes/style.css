@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #373737;
+}
+.quotes_container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 80vh;
+  width: 90vw;
+}
+.h6 {
+  font-size: 2rem;
+  color: #e7ffff;
+}
+.quotes {
+  margin-top: 15vh;
+  height: 20vh;
+  width: 80vw;
+}
+.author_name {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+.btn {
+  margin-top: 25vh;
+  font-weight: 600;
+  height: 7vh;
+  width: 30vw;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  color: #373737;
+}
